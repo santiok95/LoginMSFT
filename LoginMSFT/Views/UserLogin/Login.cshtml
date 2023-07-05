@@ -1,0 +1,5 @@
+﻿@if(ViewData.Keys.Contains("message"))
+{
+    <p syle="color : red">@ViewData["message"]</p>
+}
+<a class=" btn btn-success" asp-action="ExternalLogin" asp-route-provider="Microsoft">Continuar con Microsoft</a>
